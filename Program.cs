@@ -1,0 +1,20 @@
+﻿string Espécie, Raça, Nome, Idade, Pelagem;
+Console.Write("Digite o Nome de seu Pet......");
+Nome = Console.ReadLine ();
+Console.Write("Qual a idade de seu Pet...: ");
+Idade = Console.ReadLine ();
+Console.Write("Digite a Espécie de seu Pet:.....");
+ Espécie = Console.ReadLine();
+ Console.Write("Digite a Raça de seu Pet.....");
+ Raça = Console.ReadLine();
+ Console.Write("Qual a Pelagem/cor do seu Pet...:");
+ Pelagem = Console.ReadLine ();
+ 
+Console.WriteLine("+=========================================================+");
+Console.WriteLine("|                Pet Hotel Casa Dos Anjos                 |");
+Console.WriteLine("+=========================================================+");
+Console.WriteLine($"| Espécie:.....:{Espécie}     |Raça...... {Raça}         |");
+Console.WriteLine("+=========================================================+");
+Console.WriteLine($"| Atende pelo nome:.......................        {Nome} |");
+Console.WriteLine($"| Idade..: {Idade}               Pelagem..: {Pelagem}        |");
+Console.WriteLine("+=========================================================+");
